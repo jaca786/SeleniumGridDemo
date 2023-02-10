@@ -14,11 +14,9 @@ public class MainPageTest2 extends Base{
         DevTools devTools = ((HasDevTools) driver).getDevTools();
         devTools.createSession();
 
-        devTools.send(Emulation.setGeolocationOverride(Optional.of(52.5043),
-                Optional.of(13.4501),
-                Optional.of(1)));
+    
 
-        driver.get("https://my-location.org/");
+        driver.get("https://invideo.io/");
         System.out.println("Script Executed");
         Thread.sleep(2000);
        System.out.println( driver.getTitle());
