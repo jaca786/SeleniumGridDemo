@@ -34,8 +34,6 @@ public class Base {
             throw new RuntimeException(e);
         }
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
-        driver.get("https://www.google.com/");
-
         mainPage = new MainPage(driver);
     }
 
