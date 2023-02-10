@@ -1,0 +1,8 @@
+/target/
+/Logs/
+/test-output/
+/InVideoTestResults/
+/FailedTestsScreenshots/
+.DS_Store
+/.idea
+/DownloadsFolder
